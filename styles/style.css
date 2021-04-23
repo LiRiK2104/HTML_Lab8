@@ -10,3 +10,22 @@
 .text-white-70 {
   color: rgba(255,255,255,0.7)
 }
+
+.text-black-40 {
+  color: rgba(0,0,0,0.4)
+}
+
+#info-3 {
+    background: linear-gradient(rgba(100,181,246 ,0.3), rgba(0,0,0,0.8)),url(../img/foto.jpg) 0% 0%/cover;
+}
+
+@media screen and (min-width: 768px ){
+  .basis-md-50 {
+	flex-basis: 50%
+  }  
+}
+
+.fa fa-3x fa-free-code-camp my-3 mx-5{
+    icon: url(../img/free-code-camp.png);
+}
+
